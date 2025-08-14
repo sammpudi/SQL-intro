@@ -1,1 +1,9 @@
 --SELECT * FROM delivery_data --WHERE  city='Cape Town' AND carrier ='SwiftX' and distance_km IN(41,135,194,334,344,299) AND distance_km >= 100;
+--SELECT * FROM delivery_data --WHERE  city='Cape Town' AND carrier ='SwiftX' and distance_km IN(41,135,194,334,344,299) AND distance_km >= 100;
+--SELECT * FROM delivery_data WHERE city='Cape Town' AND carrier='SwiftX' AND distance_km IN(41,135,194,344,334,299) AND distance_km > 100;
+--SELECT sum(distance_km) FROM delivery_data WHERE customer_id IN('D00137','D00140','D00172');
+--SELECT*FROM delivery_data LIMIT 10
+--SELECT city, AVG(distance_km) FROM delivery_data GROUP BY city
+--SELECT COUNT(city) FROM delivery_data
+--SELECT COUNT(city) FROM delivery_data WHERE city='Johannesburg'
+--SELECT COUNT(city) FROM delivery_data WHERE city='Durban'
