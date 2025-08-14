@@ -1,0 +1,1 @@
+--SELECT * FROM delivery_data --WHERE  city='Cape Town' AND carrier ='SwiftX' and distance_km IN(41,135,194,334,344,299) AND distance_km >= 100;
